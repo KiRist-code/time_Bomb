@@ -28,17 +28,11 @@ void setup() {
 void loop() {
   Serial.println(randNumber); //랜덤숫자 출력
   if(digitalRead(9) == 1){
-    Serial.println("1-1");
     if(digitalRead(10) == 1){
-      Serial.println("2-1");
       if(digitalRead(11) == 1){
-        Serial.println("3-1");
         if(digitalRead(12) == 1){
-          Serial.println("4-1");
           if(digitalRead(13) == 1){
-            Serial.println("5-1");
             if(digitalRead(14) == 1){
-              Serial.println("6-1");
               tone(15,hz[4],500);
               delay(1000);
               for(int j=7*k;j<7*(k+1);j++){
@@ -129,5 +123,4 @@ void loop() {
     }
     tone(15,hz[4],500);
   }
-//          }}}}}
 }
