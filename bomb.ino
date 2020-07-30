@@ -46,7 +46,6 @@ void loop() {
               k++;
             }
             else if(digitalRead(randNumber + 8) == 1) {
-            
               for(int i=0;i<4;i++){
                 tone(15,hz[i],500);
                 delay(500);
